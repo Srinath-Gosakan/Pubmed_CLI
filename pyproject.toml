@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "pubmed-paper-fetcher"
-version = "0.1.0"
+version = "0.1.1"
 description = "CLI tool to fetch PubMed papers with non-academic authors"
 authors = ["Srinath Gosakan <gosakan003@gmail.com>"]
 readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/Srinath-Gosakan/"
+repository = "https://github.com/Srinath-Gosakan/Pubmed_CLI"
+keywords = ["pubmed", "papers", "CLI", "bioinformatics", "science"]
 packages = [{ include = "pubmed_paper_fetcher", from = "src" }]
 
 [tool.poetry.dependencies]
